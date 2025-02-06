@@ -16,6 +16,17 @@ class AppConfig:
         self.bounding_box = None
         self.device = None
         self.label_sizes = {
+            "b1": {
+                "size": {
+                    "50mm x 30mm": (50, 30),
+                    "50mm x 50mm(R)": (50, 50),
+                    "50mm x 70mm": (50, 70),
+                    "50mm x 80mm": (50, 80),
+                    "40mm x 30mm": (40, 30),
+                    "40mm x 70mm": (40, 70)
+                },
+                "density": 3
+            },
             "d110": {
                 "size": {
                     "30mm x 15mm": (30, 15),
