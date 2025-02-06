@@ -42,7 +42,7 @@ class LabelPrinterApp(tk.Tk):
         super().__init__()
         self.title('NiimPrintX')
         width=1100
-        height=800
+        height=900
         x = (self.winfo_screenwidth() // 2) - (width // 2)
         y = (self.winfo_screenheight() // 2) - (height // 2)
         self.geometry(f"{width}x{height}+{x}+{y}")
